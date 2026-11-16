@@ -1,0 +1,24 @@
+{
+  "_nota": "Conjunto separado, escrito ANTES das correções da 3ª rodada e congelado: não foi usado para escolher sinônimos ou regras. Mede se as correções valem para perguntas novas.",
+  "com_resposta": [
+    {"pergunta": "vcs abrem que horas hj?", "fonte": "entrega.md", "secao": "Horário de funcionamento", "deve_conter": ["18h"]},
+    {"pergunta": "segunda tá aberto?", "fonte": "entrega.md", "secao": "Horário de funcionamento", "deve_conter": ["Fechado às segundas"]},
+    {"pergunta": "q horas fecha a cozinha", "fonte": "entrega.md", "secao": "Horário de funcionamento", "deve_conter": ["23h"]},
+    {"pergunta": "qto ta o frete pra 2km", "fonte": "entrega.md", "secao": "Área e taxa de entrega", "deve_conter": ["R$ 5,00"]},
+    {"pergunta": "os fretes sao gratis?", "fonte": "entrega.md", "secao": "Área e taxa de entrega", "deve_conter": ["R$ 120,00"]},
+    {"pergunta": "demora qto pra chegar?", "fonte": "entrega.md", "secao": "Tempo de entrega", "deve_conter": ["40 a 55 minutos"]},
+    {"pergunta": "retirar no balcão tem desconto?", "fonte": "entrega.md", "secao": "Retirada no balcão", "deve_conter": ["10%"]},
+    {"pergunta": "quanto ta a pizza 4 queijos", "fonte": "cardapio.md", "secao": "Pizzas", "deve_conter": ["R$ 62,00"]},
+    {"pergunta": "tem borda recheada?", "fonte": "cardapio.md", "secao": "Pizzas", "deve_conter": ["R$ 9,00 a mais"]},
+    {"pergunta": "tem suco?", "fonte": "cardapio.md", "secao": "Bebidas", "deve_conter": ["R$ 12,00"]},
+    {"pergunta": "vende cerveja?", "fonte": "cardapio.md", "secao": "Bebidas", "deve_conter": ["Não vendemos bebidas alcoólicas"]},
+    {"pergunta": "meu lanche ta demorando mto, tenho direito a algo?", "fonte": "politicas.md", "secao": "Pedido atrasado", "deve_conter": ["R$ 15,00"]},
+    {"pergunta": "veio pizza errada oq eu faço", "fonte": "politicas.md", "secao": "Pedido errado ou incompleto", "deve_conter": ["2 horas"]},
+    {"pergunta": "dá pra cancelar o pedido?", "fonte": "politicas.md", "secao": "Cancelamento", "deve_conter": ["5 minutos"]},
+    {"pergunta": "o dinheiro volta qdo no pix?", "fonte": "politicas.md", "secao": "Reembolso", "deve_conter": ["1 dia útil"]},
+    {"pergunta": "posso usar 2 cupons?", "fonte": "politicas.md", "secao": "Cupons", "deve_conter": ["apenas um cupom"]},
+    {"pergunta": "tenho alergia a amendoim", "fonte": "alergenos.md", "secao": "Castanhas e amendoim", "deve_conter": ["castanha-de-caju"]},
+    {"pergunta": "sou intolerante a lactose, o q posso comer?", "fonte": "alergenos.md", "secao": "Lactose", "deve_conter": ["brownie vegano"]}
+  ],
+  "sem_resposta": ["aceita vr?", "tem musica ao vivo?", "qual o insta de vcs?"]
+}

@@ -1,0 +1,2 @@
+# O código não tem dependências externas. pytest é só para os testes.
+pytest>=8.0

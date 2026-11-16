@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "assistente-rag-restaurante"
+version = "0.10.0"
+description = "Assistente de atendimento com RAG: busca BM25 feita do zero + Claude API, com fontes citadas."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff", "mypy"]
+
+[project.scripts]
+assistente-rag = "rag_restaurante.__main__:main"
+
+[tool.setuptools]
+packages = ["rag_restaurante"]
+
+[tool.setuptools.package-data]
+rag_restaurante = ["documentos/*.md", "documentos/*.json", "perguntas*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "UP", "SIM", "RUF", "PL", "C4", "PIE", "RET"]
+ignore = ["PLR2004", "RUF001", "RUF002", "RUF003", "PLR0913", "SIM905"]
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
